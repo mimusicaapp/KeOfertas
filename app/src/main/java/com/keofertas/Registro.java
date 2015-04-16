@@ -30,7 +30,7 @@ public class Registro extends ActionBarActivity {
 
         if(validarCampos(email, pass1, pass2)){
             String[] array = {email, pass1, pass2};
-            RegistrarCuentaEnServidor registro = new RegistrarCuentaEnServidor(this);
+            RegistrarCuentaEnServidor registro = new RegistrarCuentaEnServidor();
             registro.execute(array);
         }
     }
