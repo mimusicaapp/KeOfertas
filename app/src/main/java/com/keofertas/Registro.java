@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -28,8 +29,9 @@ public class Registro extends ActionBarActivity {
         String pass2 = this.pass2.getText().toString();
 
         if(validarCampos(email, pass1, pass2)){
-            Intent registrar = new Intent(this, Inicio.class);
-            startActivity(registrar);
+            String[] array = {email, pass1, pass2};
+            RegistrarCuentaEnServidor registro = new RegistrarCuentaEnServidor(this);
+            registro.execute(array);
         }
     }
 
@@ -61,8 +63,13 @@ public class Registro extends ActionBarActivity {
         }
     }
 
-    private class registrarCuentaEnServidor extends AsyncTask<String[], Void, String>{
+    private class RegistrarCuentaEnServidor extends AsyncTask<String[], Void, String>{
 
+        @Override
+        protected String doInBackground(String[]... strings) {
+            Log.v("AsyncTask:","Metodo doInBackground()...");
+            return null;
+        }
     }
 
 }
