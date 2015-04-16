@@ -68,6 +68,7 @@ public class Registro extends ActionBarActivity {
         @Override
         protected String doInBackground(String[]... strings) {
             Log.v("AsyncTask:","Metodo doInBackground()...");
+            Log.v("Probando cambios en GitHub:","Probando Cambios...");
             return null;
         }
     }
