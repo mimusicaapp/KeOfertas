@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="LoginNoActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TemaActionBar" parent="Theme.AppCompat.Light">
+    </style>
+
+</resources>

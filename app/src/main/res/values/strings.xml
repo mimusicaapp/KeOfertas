@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KeOfertas</string>
+    <string name="ping">Probando Ping con KeOfertas</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="pass_olvidado"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="hello_world">Bienvenido Sesion Iniciado</string>
+    <string name="action_settings">Settings</string>
+    <string name="acepto_los">Acepto los</string>
+    <string name="terminos_de_uso"><u>Terminos de Uso</u></string>
+    <string name="title_activity_recuperar_credenciales">Recuperar Contraseña</string>
+    <string name="title_activity_inicio">Inicio</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_login"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText_email"
+        android:background="@drawable/background_edittext_login"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/imageView_logo"
+        android:layout_centerVertical="true"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_password"
+        android:background="@drawable/background_edittext_login"
+        android:layout_marginTop="10dp"
+        android:hint="Contraseña"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/editText_email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_again_password"
+        android:background="@drawable/background_edittext_login"
+        android:layout_marginTop="10dp"
+        android:hint="Confirma la contraseña"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/editText_email" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_terminos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_terminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/textView_terminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/acepto_los"
+            android:layout_alignBaseline="@id/checkbox_terminos"
+            android:layout_toRightOf="@id/checkbox_terminos"
+            android:textColor="@color/asbestos"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/asbestos"
+            android:text="@string/terminos_de_uso"
+            android:layout_alignBaseline="@id/textView_terminos"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/textView_terminos"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"
+        android:background="@drawable/button_state"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="@color/clouds"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="registrarCuenta"/>
+
+</LinearLayout>

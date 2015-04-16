@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="LoginNoActionBar" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item> <!-- For 2.x version  -->
+    </style>
+
+    <style name="TemaActionBar" parent="Theme.AppCompat.Light">
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\KeOfertas\app\build\intermediates\classes\debug
+C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\KeOfertas\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-d4a4656ff5520bd8f819c3750161a25798d60229.jar
+C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\KeOfertas\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-0cdd11622d6c2ae77382d0a1573b26b588d91e1b.jar
+C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\KeOfertas\app\build\intermediates\pre-dexed\debug\classes-5732902031fcfce7e7e876e923942238b10bd6df.jar
+C:\Users\LUIS\Documents\PFC1\SourceCodeMovilHuejutla\KeOfertas\app\build\intermediates\pre-dexed\debug\classes-873bd120b3cd0c3dda11933c1a7a44c7dda2948f.jar

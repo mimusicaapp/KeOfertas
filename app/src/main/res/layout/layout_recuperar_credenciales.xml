@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_login"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escriba aqui su direccion de correo electronico."
+        android:textSize="12sp"
+        android:textColor="@color/asbestos"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText_recuperar_email"
+        android:background="@drawable/background_edittext_login"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/imageView_logo"
+        android:layout_centerVertical="true"
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/button_recuperar_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Contraseña"
+        android:background="@drawable/button_state"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="@color/clouds"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
